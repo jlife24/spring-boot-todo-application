@@ -1,13 +1,14 @@
-package controllers;
+package com.example.springboottodoapplication.controllers;
 
 import org.springframework.stereotype.Controller;
 import com.example.springboottodoapplication.services.TodoItemService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.servlet.ModelAndView;
+
 @Controller
 public class HomeController {
-    
+
     @Autowired
     private TodoItemService todoItemService;
 
@@ -17,4 +18,5 @@ public class HomeController {
         modelAndView.addObject("todoItems", todoItemService.getAll());
         return modelAndView;
     }
+
 }

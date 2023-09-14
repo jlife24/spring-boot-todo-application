@@ -1,0 +1,27 @@
+2023-09-14 13:52:02 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "select the * [*]from TODO_ITEMS\000d\000aSELECT * FROM TODO_ITEMS where id = 2"; SQL statement:
+select the * from TODO_ITEMS
+SELECT * FROM TODO_ITEMS where id = 2 [42000-214]
+2023-09-14 13:52:11 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "select the * [*]from TODO_ITEMS"; SQL statement:
+select the * from TODO_ITEMS [42000-214]
+2023-09-14 13:52:16 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "select the * [*]from TODO_ITEMS"; SQL statement:
+select the * from TODO_ITEMS [42000-214]
+2023-09-14 13:55:39 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "update TODO_ITEMS [*]where id = 2 set DESCRIPTION = Check with shiva on alert repo\000d\000aselect * from TODO_ITEMS"; expected "., AS, SET"; SQL statement:
+update TODO_ITEMS where id = 2 set DESCRIPTION = Check with shiva on alert repo
+select * from TODO_ITEMS [42001-214]
+2023-09-14 13:56:50 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "update TODO_ITEMS  set DESCRIPTION = [*]Check with shiva on alert repo where id = 2\000d\000aselect * from TODO_ITEMS"; expected "DEFAULT, INTERSECTS (, NOT, EXISTS, UNIQUE, INTERSECTS"; SQL statement:
+update TODO_ITEMS  set DESCRIPTION = Check with shiva on alert repo where id = 2
+select * from TODO_ITEMS [42001-214]
+2023-09-14 13:56:55 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "update TODO_ITEMS  set DESCRIPTION = [*]Check with shiva on alert repo where id = 2"; expected "DEFAULT, INTERSECTS (, NOT, EXISTS, UNIQUE, INTERSECTS"; SQL statement:
+update TODO_ITEMS  set DESCRIPTION = Check with shiva on alert repo where id = 2 [42001-214]
+2023-09-14 13:57:09 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "update TODO_ITEMS  set DESCRIPTION = [*]Check with shiva on alert repo where id = 2"; expected "DEFAULT, INTERSECTS (, NOT, EXISTS, UNIQUE, INTERSECTS"; SQL statement:
+update TODO_ITEMS  set DESCRIPTION = Check with shiva on alert repo where id = 2 [42001-214]
+2023-09-14 13:57:10 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "update TODO_ITEMS  set DESCRIPTION = [*]Check with shiva on alert repo where id = 2"; expected "DEFAULT, INTERSECTS (, NOT, EXISTS, UNIQUE, INTERSECTS"; SQL statement:
+update TODO_ITEMS  set DESCRIPTION = Check with shiva on alert repo where id = 2 [42001-214]
